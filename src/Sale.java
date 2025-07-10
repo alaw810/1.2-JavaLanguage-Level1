@@ -29,4 +29,10 @@ public class Sale {
 
     }
 
+    public void errorMaker() {
+        for (int i = 0 ; i <= cart.size() ; i++) {
+            System.out.println("Value at: " + i + " = " + cart.get(i));
+        }
+    }
+
 }
