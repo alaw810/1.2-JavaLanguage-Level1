@@ -21,7 +21,7 @@ public class Main {
 
 
         try {
-            sale.errorMaker();
+            sale.indexOOBErrorMaker();
         } catch (IndexOutOfBoundsException e) {
             System.out.println("IndexOutOfBoundsException: " + e.getMessage());
         }
